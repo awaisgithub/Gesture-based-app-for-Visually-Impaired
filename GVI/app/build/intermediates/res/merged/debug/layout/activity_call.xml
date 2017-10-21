@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:background="#6e938686">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/button1"
+        android:width="120dp"
+        android:height="100dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/button2"
+        android:width="120dp"
+        android:height="100dp"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/button3"
+        android:width="120dp"
+        android:height="100dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/button4"
+        android:height="100dp"
+        android:width="125dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/button5"
+        android:height="100dp"
+        android:width="125dp"
+        android:layout_above="@+id/button8"
+        android:layout_toStartOf="@+id/button6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:width="125dp"
+        android:height="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/button7"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:height="100dp"
+        android:width="125dp"
+        android:layout_toStartOf="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/button8"
+        android:width="125dp"
+        android:height="100dp"
+        android:layout_above="@+id/buttonHash"
+        android:layout_toEndOf="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/button9"
+        android:height="100dp"
+        android:width="125dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/buttonStar"
+        android:width="125dp"
+        android:height="100dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:id="@+id/buttonHash"
+        android:layout_alignBaseline="@+id/button0"
+        android:layout_alignBottom="@+id/button0"
+        android:layout_alignParentEnd="true"
+        android:width="125dp"
+        android:height="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/button0"
+        android:height="100dp"
+        android:width="125dp"
+        android:layout_alignTop="@+id/buttonStar"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/buttonDial"
+        android:width="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:height="100dp" />
+</RelativeLayout><!-- From: file:/C:/Users/Home%20Sweet%20Home/Desktop/GVI6_contFromHere/GVI2/app/src/main/res/layout/activity_call.xml -->

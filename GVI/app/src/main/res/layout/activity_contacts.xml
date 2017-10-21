@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#6e938686">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:text="Contacts"
+        android:textColor="#caefecec"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/button_contacts"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:longClickable="true"
+        android:clickable="true" />
+</RelativeLayout>

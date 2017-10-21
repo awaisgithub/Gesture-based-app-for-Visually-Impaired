@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:text="Training"
+        android:textColor="#caefecec"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/button_training"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:longClickable="true"
+        android:clickable="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Home%20Sweet%20Home/Desktop/GVI6_contFromHere/GVI2/app/src/main/res/layout/activity_training.xml -->
